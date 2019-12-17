@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Navigation = () => {
   return (
+    /*Changed the nav to use react links*/
     <div>
       <div className="App">
         <h1>React Router Mini</h1>
@@ -15,9 +16,6 @@ const Navigation = () => {
         <div>
           <Link to="/contact">Contact</Link>
         </div>
-        
-        
-        
       </div>
     </div>
   );
